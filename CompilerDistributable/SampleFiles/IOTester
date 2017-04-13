@@ -1,0 +1,43 @@
+public static void MATH (PARAMETER)
+{
+//Declare variables here
+var INPUT, FIFTY: int;
+var A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z, SPACE, COLON, LINE: char;
+{
+FIFTY = 50;
+A='a'; B='b'; C='c'; D='d'; E='e'; F='f'; G='g'; H='h'; I='i'; J='j'; K='k'; L='l'; M='m';
+N='n'; O='o'; P='p'; Q='q'; R='r'; S='s'; T='t'; U='u'; V='v'; W='w'; X='x'; Y='y'; Z='z';
+SPACE = 32;//Space character in ASCII
+COLON = 58;//Colon in ASCII
+LINE = 10;//New line character in ASCII
+
+put(LINE);
+
+//enter a number - if less than 50, prints less than 50
+put(E); put(N); put(T); put(E); put(R); put(SPACE); put(A); put(SPACE); put(N); put(U); put(M);
+put(B); put(E); put(R); put(COLON);
+
+get(INPUT);
+
+if(INPUT < 50)
+{
+	put(L); put(E); put(S); put(S); put(SPACE); put(T); put(H); put(A); put(N); put(SPACE);
+	put(FIFTY)
+};
+
+if(INPUT > 50)
+{
+	put(G); put(R); put(E); put(A); put(T); put(E); put(R); put(SPACE); put(T); put(H); put(A); put(N); put(SPACE);
+	put(FIFTY)
+};
+
+if(INPUT == 50)
+{
+	put(E); put(Q); put(U); put(A); put(L); put(SPACE); put(T); put(O); put(SPACE);
+	put(FIFTY)
+};
+
+put(LINE)
+}
+}
+$

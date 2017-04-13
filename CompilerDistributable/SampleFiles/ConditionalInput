@@ -1,0 +1,79 @@
+public static void CONDITIONAL (FIRST_TERM, SECOND_TERM)
+{
+
+var FIRST, SECOND, THIRD, FOURTH, FIFTH, SIXTH: int;
+var LETTER, TRUE, FALSE, BLANK: char;
+
+{
+
+FIRST = 1;
+SECOND = 2;
+THIRD = 3;
+FOURTH = 4;
+FIFTH = 5;
+SIXTH = 6;
+LETTER = 'b';
+TRUE = 'T';
+FALSE = 'F';
+BLANK = 10;//ASCII new line - this actually works
+
+FIRST = 3 * 4 + 5 * 2;
+
+if (FIRST > SECOND)//this won't execute
+{
+	put(FIRST)
+};
+
+if (FIRST >= SECOND)//this won't execute
+{
+	put(SECOND)
+};
+
+if (FIRST == SECOND)//this won't execute
+{
+	put(THIRD)
+};
+
+if(FIRST > TRUE)//this won’t execute
+{
+	put(BLANK)
+};
+
+if (FIRST <= SECOND)
+{
+	put(FOURTH);
+	
+	if (FIRST <= SECOND)
+	{
+		put(BLANK)
+	}
+
+};
+
+if (FIRST < SECOND)
+{
+	put(FIFTH)
+};
+
+if (FIRST <> SECOND)
+{
+	put(SIXTH)
+};
+
+put(BLANK);
+
+if(true)
+{
+	put(TRUE)
+};
+
+if(false)
+{
+	put(FALSE)//this should never execute
+};
+
+put(SECOND)
+
+}
+}
+$

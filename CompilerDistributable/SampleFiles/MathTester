@@ -1,0 +1,37 @@
+public static void MATH (FIRST_TERM)
+{
+var FIRST_TERM, SECOND_TERM, SUM: int;
+var RESULT, BLANK: char;
+
+{
+
+FIRST_TERM = 5;
+SECOND_TERM = 10;
+BLANK = 10;//New line character in ASCII
+
+SUM = FIRST_TERM / 5 + 10;
+
+put(SUM);
+put(BLANK);
+
+SUM = SECOND_TERM;
+
+put(SUM);
+put(BLANK);
+
+SUM = 30 * 2 - 55;
+
+put(SUM);
+put(BLANK);
+
+SUM = 3 % 2;
+
+put(SUM);
+put(BLANK);
+
+put(FIRST_TERM);
+put(BLANK);
+put(SECOND_TERM)
+}
+}
+$
